@@ -13,21 +13,21 @@ $menu_width: 400px;
     height: 100%;
     top: 0;
     z-index: 9999;
-    background: $brand-primary;
+    background: #fff;
     overflow: auto;
     visibility: hidden;
     -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
 
     a{
         display: block;
-        color: #fff;
+        color: $brand-primary;
         padding: 15px 30px;
         text-decoration: none;
         outline: 0;
     }
 
     a:hover{
-        color: #FFF;
+        color: #f2f2f2;
     }
 
     ul:first-child{
@@ -40,6 +40,13 @@ $menu_width: 400px;
 
     &.pushy-right{
         right: 0;
+    }
+
+    > ul {
+        list-style: none;
+        li {
+            border-bottom: 1px silid $brand-primary;
+        }
     }
 }
 
