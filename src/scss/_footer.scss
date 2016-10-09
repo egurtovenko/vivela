@@ -1,0 +1,22 @@
+.footer {
+    background-color: $brand-primary;
+    color: #fff;
+    box-shadow: 1px 1.7px 3.9px 0.1px rgba(0, 0, 0, 0.31);
+    &-content {
+        max-width: 880px;
+        margin: 0 auto;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    &-devider {
+        max-width: 1200px;
+        height: 1px;
+        background: #fff;
+        margin: 0 auto;
+    }
+    &-social {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+    }
+}
