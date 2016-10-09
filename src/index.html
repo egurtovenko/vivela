@@ -7,22 +7,43 @@
 	<link rel="stylesheet" href="css/all.css">
 </head>
 <body>
+	<!-- header -->
 	<div class="container">
 		<header class="header">
 			<div class="header-logo"><img src="img/logo.png" alt=""></div>
 			<div class="header-contacts">
 				<span class="phone">+7(4722) 25-11-11</span>
 				<span class="phone">+7(4722) 77-79-07</span>
-				<span class="phone primary">Заказать звонок</span>
+				<a href="#"><span class="phone primary">Заказать звонок</span></a>
 			</div>
 			<div class="header-menu text-right">
 				<div class="menu-icon"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></div>
 				<div class="menu-button">
-					<a href="" class="btn btn-primary menu-btn"><i class="fa fa-bars" aria-hidden="true"></i>МЕНЮ</a>
+					<div class="menu-btn btn btn-primary">&#9776; МЕНЮ</div>
 				</div>
 			</div>
+		<!-- push-menu	 -->
+			<nav class="pushy pushy-right">
+    		<ul>
+        <!-- Submenu -->
+        <li class="pushy-submenu">
+            <a href="#">Новости</a>
+            <ul>
+                <li class="pushy-link"><a href="#">Item 1</a></li>
+                <li class="pushy-link"><a href="#">Item 2</a></li>
+                <li class="pushy-link"><a href="#">Item 3</a></li>
+            </ul>
+        </li>
+        		<li class="pushy-link"><a href="#">Item 1</a></li>
+        		<li class="pushy-link"><a href="#">Item 2</a></li>
+    		</ul>
+		</nav>
+
+<!-- Site Overlay -->
+		<div class="site-overlay"></div>
 		</header>
 	</div>
+	<!-- text about company -->
 	<div class="container">
 		<div class="about-company">
 			<h3 class="about-company-title">О компании</h3>
@@ -49,5 +70,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/pushy.min.js"></script>
 </body>
 </html>
