@@ -3,7 +3,7 @@
 * https://github.com/christophery/pushy/
 * by Christopher Yee */
 
-$menu_width: 400px;
+$menu_width: 325px;
 
 /* Menu Appearance */
 
@@ -27,7 +27,7 @@ $menu_width: 400px;
     }
 
     a:hover{
-        color: #f2f2f2;
+        color: #b8b8b8;
     }
 
     ul:first-child{
@@ -42,10 +42,19 @@ $menu_width: 400px;
         right: 0;
     }
 
-    > ul {
+    .pushy-header {
+        padding: 15px;
+        color: #fff;
+        background-color: $brand-primary;
+    }
+
+    .pushy-list {
         list-style: none;
-        li {
-            border-bottom: 1px silid $brand-primary;
+        padding-left: 15px;
+        padding-right: 15px;
+        .pushy-link {
+            padding-left: 20px;
+            border-bottom: 1px solid #b8b8b8;
         }
     }
 }

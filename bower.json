@@ -16,7 +16,8 @@
   ],
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "wow": "wowjs#^1.1.2"
+    "wow": "wowjs#^1.1.2",
+    "slick-carousel": "^1.6.0"
   },
   "devDependencies": {
     "pushy": "^1.0.0"
