@@ -4,13 +4,16 @@
 	<meta charset="UTF-8">
 	<title>Vive la</title>
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/all.css">
 </head>
 <body>
 	<!-- header -->
 	<div class="container">
 		<header class="header">
-			<div class="header-logo"><img src="img/logo.png" alt=""></div>
+			<div class="header-logo"><img src="img/logo.png" alt="" class="wow bounceInLeft"></div>
 			<div class="header-contacts">
 				<span class="phone">+7(4722) 25-11-11</span>
 				<span class="phone">+7(4722) 77-79-07</span>
@@ -56,15 +59,15 @@
 	<!-- top-slider -->
 	<div class="container">
 		<div class="header-slider">
-			<div class="header-slider-item"></div>
-			<div class="header-slider-item"></div>
-			<div class="header-slider-item"></div>
+			<div class="header-slider-item"><img src="img/panoram.jpg" alt="" class="img-responsive"></div>
+			<div class="header-slider-item"><img src="img/panoram.jpg" alt="" class="img-responsive"></div>
+			<div class="header-slider-item"><img src="img/panoram.jpg" alt="" class="img-responsive"></div>
 		</div>
 	</div>
 
 	<!-- text about company -->
 	<div class="container">
-		<div class="about-company">
+		<div class="about-company wow fadeInDown">
 			<h3 class="about-company-title">О компании</h3>
 			<p>Будьте здоровы! Это наше, казалось бы, обычное пожелание друг другу теперь стало главным девизом нашей клиники. Следуя именно этому девизу, мы искренне стремимся сделать так, чтобы обращающиеся к нам пациенты были действительно здоровы. Продление жизни населения – является главной задачей медицины Белгородской области.</p>
 			<p>С чего начинается здоровье?</p>
@@ -75,6 +78,17 @@
 			<p>И, наконец, третья важная составляющая правильного подхода в современной медицине - она должна быть превентивной, то есть профилактической. Возьмите за правило регулярно проходить медицинское обследование, даже если вам кажется, что у Вас все благополучно со здоровьем. Болезнь может развиваться бессимптомно, и наша задача вовремя ее выявить и предотвратить!</p>
 		</div>
 	</div>
+
+	<!-- our_employ -->
+	<div class="container">
+		<div class="employ">
+			<div class="employ-item"><img src="" alt=""></div>
+			<div class="employ-item"></div>
+			<div class="employ-item"></div>
+			<div class="employ-item"></div>
+		</div>
+	</div>
+
 	<!-- footer -->
 	<div class="container">
 		<footer class="footer">
@@ -91,5 +105,11 @@
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/pushy.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
